@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Renamer",
+    "version": "1.0",
+    "description": "Rename the current tab's title.",
+    "permissions": [
+      "scripting",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Rename Tab"
+    }
+  }
